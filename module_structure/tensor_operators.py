@@ -9,6 +9,7 @@ TENSOR CALCULATOR.
 import torch # To generate tensors
 import random  # To be able to generate random numbers
 
+__all__ = ['TensorCalculator']
 
 class TensorCalculator:
     # Tensors' dimensions (two dimensions, x and y):
