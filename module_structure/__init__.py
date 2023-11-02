@@ -5,6 +5,7 @@ from module_structure.tensor_operators import *
 __all__ = tensor_operators.__all__
 
 
+
 MAJOR = 1
 MINOR = 0
 PATCH = 0

@@ -26,6 +26,7 @@ setup(
     install_requires        = [
                                 'pandas',
                                 'numpy',
-                                'torch'
+                                'torch',
+                                'random'
                                 ]
      )
