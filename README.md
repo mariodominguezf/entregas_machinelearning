@@ -14,19 +14,14 @@ It is highly important to install Pytorch using pip:
 # Usage.
 This code can be used as following:
 
-
-  from tensor_calculator import TensorCalculator
-
-  calculator = TensorCalculator()
-
-  zero_tensor = calculator.tensor_zeros(2,3)
-  
-  ones_tensor = calculator.tensor_ones(2,3)
-  
-  random_tensor = calculator.tensor_random(2,3)
-  
-  sum_tensor = calculator.tensor_zum(2,3)
-  
-  multiplication_tensor = calculator.tensor_multiplication(2,3)
+    from tensor_calculator import TensorCalculator
+    
+    calculator = TensorCalculator()
+    
+    zero_tensor = calculator.tensor_zeros(2,3)
+    ones_tensor = calculator.tensor_ones(2,3)
+    random_tensor = calculator.tensor_random(2,3)
+    sum_tensor = calculator.tensor_zum(2,3)
+    multiplication_tensor = calculator.tensor_multiplication(2,3)
 
 // Inside the brackets is the two dimensions of the tensors.
