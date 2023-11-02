@@ -8,6 +8,7 @@ With it, you cancreate tensors filled with zeros, ones or random values, and cal
 
 # Installation (Requirements).
 It is highly important to install Pytorch using pip:
+
     pip install torch
 
 # Usage.
