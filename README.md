@@ -24,4 +24,4 @@ This code can be used as following:
   sum_tensor = calculator.tensor_zum(2,3)
   multiplication_tensor = calculator.tensor_multiplication(2,3)
 
-Inside the brackets is the two dimensions of the tensors.
+// Inside the brackets is the two dimensions of the tensors.
