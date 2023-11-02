@@ -44,9 +44,3 @@ class TensorCalculator:
         d = torch.rand([dim_y, dim_x])
         return print(c, '\n', ' * ', '\n', d, '\n', '=', torch.matmul(c, d))
 
-x = TensorCalculator()
-print(x.tensor_zeros(2,2))
-print(x.tensor_ones(2,2))
-print(x.tensor_random(3,3))
-print(x.tensor_sum(3,2))
-print(x.tensor_multiplication(3,3))
